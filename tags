@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:PhotoApp
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreatePayments	db/migrate/20160410125656_create_payments.rb	/^class CreatePayments < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20160409101627_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+Payment	app/models/payment.rb	/^class Payment < ActiveRecord::Base$/;"	c
+PaymentTest	test/models/payment_test.rb	/^class PaymentTest < ActiveSupport::TestCase$/;"	c
+PhotoApp	config/application.rb	/^module PhotoApp$/;"	m
+RegistrationsController	app/controllers/registrations_controller.rb	/^class RegistrationsController < Devise::RegistrationsController$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
+change	db/migrate/20160409101627_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20160410125656_create_payments.rb	/^  def change$/;"	f	class:CreatePayments
+create	app/controllers/registrations_controller.rb	/^	def create$/;"	f	class:RegistrationsController
+index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
+month_options	app/models/payment.rb	/^	def self.month_options$/;"	F	class:Payment
+process_payment	app/models/payment.rb	/^	def process_payment$/;"	f	class:Payment
+year_options	app/models/payment.rb	/^	def self.year_options$/;"	F	class:Payment

@@ -8,11 +8,18 @@ ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:PhotoApp
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateImages	db/migrate/20160413163033_create_images.rb	/^class CreateImages < ActiveRecord::Migration$/;"	c
 CreatePayments	db/migrate/20160410125656_create_payments.rb	/^class CreatePayments < ActiveRecord::Migration$/;"	c
 DeviseCreateUsers	db/migrate/20160409101627_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+Image	app/models/image.rb	/^class Image < ActiveRecord::Base$/;"	c
+ImageTest	test/models/image_test.rb	/^class ImageTest < ActiveSupport::TestCase$/;"	c
+ImagesController	app/controllers/images_controller.rb	/^class ImagesController < ApplicationController$/;"	c
+ImagesControllerTest	test/controllers/images_controller_test.rb	/^class ImagesControllerTest < ActionController::TestCase$/;"	c
+ImagesHelper	app/helpers/images_helper.rb	/^module ImagesHelper$/;"	m
 Payment	app/models/payment.rb	/^class Payment < ActiveRecord::Base$/;"	c
 PaymentTest	test/models/payment_test.rb	/^class PaymentTest < ActiveSupport::TestCase$/;"	c
 PhotoApp	config/application.rb	/^module PhotoApp$/;"	m
+PictureUploader	app/uploaders/picture_uploader.rb	/^class PictureUploader < CarrierWave::Uploader::Base$/;"	c
 RegistrationsController	app/controllers/registrations_controller.rb	/^class RegistrationsController < Devise::RegistrationsController$/;"	c
 User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
 UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
@@ -21,8 +28,20 @@ WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class Welcom
 WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
 change	db/migrate/20160409101627_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
 change	db/migrate/20160410125656_create_payments.rb	/^  def change$/;"	f	class:CreatePayments
+change	db/migrate/20160413163033_create_images.rb	/^  def change$/;"	f	class:CreateImages
+configure_permitted_parameters	app/controllers/registrations_controller.rb	/^	def configure_permitted_parameters$/;"	f	class:RegistrationsController
+create	app/controllers/images_controller.rb	/^  def create$/;"	f	class:ImagesController
 create	app/controllers/registrations_controller.rb	/^	def create$/;"	f	class:RegistrationsController
+destroy	app/controllers/images_controller.rb	/^  def destroy$/;"	f	class:ImagesController
+edit	app/controllers/images_controller.rb	/^  def edit$/;"	f	class:ImagesController
+image_params	app/controllers/images_controller.rb	/^    def image_params$/;"	f	class:ImagesController
+index	app/controllers/images_controller.rb	/^  def index$/;"	f	class:ImagesController
 index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
 month_options	app/models/payment.rb	/^	def self.month_options$/;"	F	class:Payment
+new	app/controllers/images_controller.rb	/^  def new$/;"	f	class:ImagesController
 process_payment	app/models/payment.rb	/^	def process_payment$/;"	f	class:Payment
+set_image	app/controllers/images_controller.rb	/^    def set_image$/;"	f	class:ImagesController
+show	app/controllers/images_controller.rb	/^  def show$/;"	f	class:ImagesController
+store_dir	app/uploaders/picture_uploader.rb	/^  def store_dir$/;"	f	class:PictureUploader
+update	app/controllers/images_controller.rb	/^  def update$/;"	f	class:ImagesController
 year_options	app/models/payment.rb	/^	def self.year_options$/;"	F	class:Payment
